@@ -1,0 +1,67 @@
+.footer-container{
+    text-align: center;
+    position: relative;
+    width: 80%;
+    margin: auto;
+}
+.flag{
+    
+    display: flex;
+    justify-content: flex-end;
+}
+.footer-flag{
+    
+    width: 200px;
+    height: 150px;
+    
+    
+}
+.footer-logo-1, .footer-logo-2{
+    height: 100px;
+    margin-bottom: 50px;
+}
+.footer-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    color: #58686B;
+    margin-bottom: 50px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+.footer-products{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.footer-products-links>img{
+    width: 100px;
+    height: auto;
+}
+.footer-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding: 30px;
+}
+.copyRight{
+    color: #58686B ;
+    font-size: 0.75rem;
+}
+.creator{
+    color: black;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+.legal{
+    display: flex;
+    gap: 15px;
+    color: #58686B;
+    font-size: 0.75rem;
+}
