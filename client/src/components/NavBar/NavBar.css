@@ -1,0 +1,54 @@
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    padding: 0 10%;
+}
+.navbar{
+    height: 100%;
+    display: flex;;
+}
+.navbar-list{
+    display: flex;
+    align-items: center;
+    
+    gap: 30px;
+    color: #808C8E;
+   
+}
+.logo-img{
+    width: 20%;
+    height: 100%;
+}
+.navbar-items{
+    height: 100%;
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    letter-spacing: 1.5px;
+}
+.navbar-items:hover{
+    border-bottom: 3px solid #D90111 ;
+    cursor: pointer;
+    color: #00191D;
+    
+}
+.cheveron{
+    margin-left: 7px ;
+}
+.ticket-btn{
+    height: 30px;
+    width: auto;
+    padding: 20px;
+    background-color:#00191D ;
+    border: none;
+    border-radius:5px ;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.ticket{
+    height: 25px;
+}
