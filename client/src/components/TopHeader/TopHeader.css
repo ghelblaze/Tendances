@@ -1,37 +1,99 @@
-.top-header-container{
-    height: 40px;
-    background-color:#00191D ;
+.menu-t-group{
+    width: 100%;
+    height: 44px;
+    background-color: #00191D;
+    border-bottom: 0.8px solid #EDF0F31A;
     display: flex;
     justify-content: space-between;
-    color:#B2BABB ;
-    align-items: center;
-    padding: 0px 40px;
-}
-.top-left, .top-right{
-    height: 100%;
-    display: flex;
-    align-items: center;
-}
-.left-list, .right-list{
-    display: flex;
-    gap: 20px;
-    height: 100%;
-    align-items: center;
-    color: #9CA6A7; 
-    list-style-type:none;
-}
-.left-list-items, .right-list-items{
-    border-right: 1px solid #304447;
-    padding-right: 10px;
-    height: 100%;
-    display: flex;
-    align-items: center;
-}
-.left-list>.left-list-items:last-child, .right-list>.right-list-items:last-child{
-    border: none;
-    color: #fff;
-}
-.right-list{
-    gap: 10px;
+    
+    padding-right: 5%;
+    
+    
     
 }
+.agences{
+    display: flex;
+    width:53px;
+    height:  44px;
+    margin-left: 50px;
+
+}
+.group{
+    padding: 13px 20px 13px 0px;
+    border: 0px 1px 0px 0px;
+
+}
+.media, .sport, .dev, .one, .top, .group{
+    width:auto;
+    height:44px;
+    padding: 13px 20px 13px 20px;
+    border: 0px 1px 0px 0px;
+    gap: 10px;
+    opacity: 0.7;
+    color: #FFFFFF ;
+    border-right: 0.8px solid rgba(255, 255, 255, 0.25);
+    align-items: center;
+    display: flex;
+    font-family: "Red Hat Display";
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+.tendances{
+    display: flex;
+    align-items: center;
+    
+    padding: 13px 20px 13px 20px;
+    
+    gap: 10px;
+
+    font-family: "Red Hat Display";
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    line-height: 18px;
+    color: #FFF;
+    opacity: 1;
+
+
+}
+.right-list{
+    display: flex;
+    color: #FFF;
+    align-items: center;
+    
+    
+}
+
+.support-client{
+    font-family: "Red Hat Display";
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #FFF;
+    opacity: 0.7;
+    border-right: 0.8px solid rgba(255, 255, 255, 0.2);
+    padding: 13px 20px 13px 20px;
+}
+.nous-contacter{
+    font-family: "Red Hat Display";
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #FFF;
+    opacity: 0.7;
+    padding: 13px 0 13px 20px;
+}
+.arrow{
+    font-size: 1.2rem;
+    color: red;
+    
+    font-family: "Red Hat Display";
+    margin-right: 5px;
+} 
+
+

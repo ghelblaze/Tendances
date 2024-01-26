@@ -5,28 +5,29 @@ import Arrow from "./Arrow.jsx"
 
 const TopHeader = () => {
   return (
-    <div className='top-header-container'>
-        <div className="top-left">
-            <ul className="left-list">
-                <li className="left-list-items">.group</li>
-                <li className="left-list-items">.media</li>
-                <li className="left-list-items">.sport</li>
-                <li className="left-list-items">.dev</li>
-                <li className="left-list-items">.one</li>
-                <li className="left-list-items">.top</li>
-                <li className="left-list-items">tendances.event</li>
+    <div className='menu-t-group'>
+        
+            <ul className="agences">
+                <li className="group">.group</li>
+                <li className="media">.media</li>
+                <li className="sport">.sport</li>
+                <li className="dev">.dev</li>
+                <li className="one">.one</li>
+                <li className="top">.top</li>
+                <li className="tendances">tendances.event</li>
                 
             </ul>
-        </div>
-        <div className="top-right">
+        
+        
             <ul className="right-list" >
-                <li className="right-list-items">SUPPORT CLIENT</li>
-                <li className="right-list-items"><Arrow style={{ transform: 'rotate(90deg)' }}/> NOUS CONTACTER</li>
+                <li className="support-client">SUPPORT CLIENT</li>
+                <li className="nous-contacter"><span className="arrow">&#129141;</span> NOUS CONTACTER</li>
             </ul>
-        </div>
+        
         
     </div>
   )
 }
 
 export default TopHeader
+{/* <Arrow style={{ transform: 'rotate(90deg)' }}/> */}

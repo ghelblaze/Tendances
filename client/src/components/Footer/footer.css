@@ -1,8 +1,11 @@
 .footer-container{
     text-align: center;
     position: relative;
-    width: 80%;
-    margin: auto;
+    width: 100%;
+    height: 562px;
+    padding: 56px 108px 56px 108px;
+    
+
 }
 .flag{
     
@@ -16,28 +19,40 @@
     
     
 }
-.footer-logo-1, .footer-logo-2{
-    height: 100px;
-    margin-bottom: 50px;
-}
+
 .footer-links{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    width: 90%;
+    height: 24px;
+    gap: 32px;
     margin: auto;
-    color: #58686B;
-    margin-bottom: 50px;
-    font-size: 0.9rem;
-    font-weight: bold;
+    margin-bottom: 110px;
+}
+.footer-links-items{
+    height: 24px;
+    font-family: "Red Hat Display";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(0, 25, 29, 0.7);
+    margin: auto;
+
+
+
 }
 .footer-products{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 100%;
+    gap: 25px;
+    justify-content: center;
     margin: auto;
+    height: 40px;
     margin-bottom: 50px;
+    margin-bottom: 56px;
 }
 .footer-products-links>img{
     width: 100px;
@@ -47,21 +62,54 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 30px;
     padding: 30px;
 }
 .copyRight{
-    color: #58686B ;
-    font-size: 0.75rem;
+    font-family: "Red Hat Display";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(0, 25, 29, 0.7);
+
+
 }
 .creator{
-    color: black;
-    font-size: 0.9rem;
-    font-weight: bold;
+    display: flex;
+    font-family: "Red Hat Display";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(0, 25, 29, 1);
+
+
+}
+.monaco-flag{
+    margin: 0 5px;
 }
 .legal{
     display: flex;
-    gap: 15px;
-    color: #58686B;
-    font-size: 0.75rem;
+    gap: 16px;
+    font-family: "Red Hat Display";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: rgba(0, 25, 29, 0.7);
+
+}
+.logo-footer{
+    width: 324px;
+    height: 56px;
+    margin: auto;
+    margin-bottom: 56px;
+}
+.footer-logo-2{
+    width: 194px;
+    height: 50px;
+    margin-bottom: 56px;
 }

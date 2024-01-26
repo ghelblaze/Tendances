@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 10vh;
+    height: 72px;
     padding: 0 10%;
 }
 .navbar{
@@ -17,16 +17,51 @@
     color: #808C8E;
    
 }
+.logo{
+    display: flex;
+    align-items:center;
+    width: 236px;
+    height: 40.89px;
+    top: 16px;
+    left: 108px;
+
+}
 .logo-img{
-    width: 20%;
-    height: 100%;
+    width: 38.93px;
+    height: 40.95px;
+
+
+}
+.tendances-img{
+    width: 113.56px;
+    height: 18.42px;
+    top: 15.04px;
+    left: 43.38px;
+    border: 0.28px;
+
+}
+.events-img{
+    width: 76.11px;
+    height: 14.77px;
+    top: 18.27px;
+    left: 159.94px;
+
 }
 .navbar-items{
     height: 100%;
     display: flex;
-    font-weight: bold;
     align-items: center;
     letter-spacing: 1.5px;
+    font-family: "Red Hat Display";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    
+   
+
+
+
 }
 .navbar-items:hover{
     border-bottom: 3px solid #D90111 ;
@@ -38,17 +73,22 @@
     margin-left: 7px ;
 }
 .ticket-btn{
-    height: 30px;
-    width: auto;
-    padding: 20px;
-    background-color:#00191D ;
+    height: 40px;
+    width: 145px;
+    padding: 8px 16px 8px 8px;
+    background: rgba(0, 25, 29, 1);
     border: none;
-    border-radius:5px ;
+    border-radius:4px ;
     color: #fff;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 16px;
+    font-family: "Red Hat Display";
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
 }
 .ticket{
-    height: 25px;
+    height: 24px;
+    width: 24px;
 }
