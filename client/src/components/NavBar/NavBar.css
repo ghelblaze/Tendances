@@ -4,6 +4,11 @@
     align-items: center;
     height: 72px;
     padding: 0 10%;
+    
+    
+    width: 100%;
+    background: rgba(255, 255, 255, 1);
+
 }
 .navbar{
     height: 100%;
