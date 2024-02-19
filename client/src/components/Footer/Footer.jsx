@@ -36,7 +36,7 @@ const Footer = () => {
         <div className="footer-bottom">
             <p className='copyRight'>COPYRIGHT 2023 &copy; TENDANCES.EVENTS</p>
             <p className='creator'>CREE AVEC PASSION <span className="monaco-flag"><img src="../../../public/flag_monaco.png" alt="flag-monaco" /></span> PAR TENDANCES.DEV</p>
-            <p className='legal'><span >Politique de confidentialité</span><span>Mentions légales</span></p>
+            <p className='legal'><span className='footerSpan' >Politique de confidentialité</span><span className='footerSpan'>Mentions légales</span></p>
         </div>
     </div>
     </>

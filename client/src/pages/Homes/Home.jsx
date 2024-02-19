@@ -1,6 +1,11 @@
-import React from 'react'
 import './Home.css'
 import Form from './Form'
+import BilleterieBTN from '../../components/billeterieBTN'
+import Stats from "../../components/Stats"
+import Paragraph from '../../components/Paragraph'
+import Reviews from '../../components/Reviews'
+import Section from '../../components/Section'
+
 
 
 const Home = () => {
@@ -20,7 +25,6 @@ const Home = () => {
         <h3 className="offre-titre">Nos offres du moment</h3>
         <div className="offre-details">
           <div className="category-1">
-            <img src="./category-1-pic.png" alt="player" className='cat1-player' />
             <img src="./category-1-top14.png" alt="top14" className='cat1-top14' />
             <div className="category-1-text">
               <h3 className="cat-title">FINALE TOP 14</h3>
@@ -29,7 +33,7 @@ const Home = () => {
             </div>
           </div>
           <div className="category-2">
-            <img src="./category-2-pic.png" alt="player2" className='cat2-player' />
+            
             <div className="category-1-text">
               <h3 className="cat-title">PARIS 2024</h3>
               <p className="cat-text">Découvrez l&#39;excitation pure de l&#39;événement sportif majeur de 2024 à Paris avec nos offres exclusives de revente d&#39;hospitalités.</p>
@@ -38,16 +42,60 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="section-text">
-        <div className="text-section">
-          <h3 className="section-title">Première Agence de Revente sur la <span> Côte d&#39;Azur !</span></h3>
-          <p className='section-body'>Découvrez l&#39;intensité du sport avec Tendances.Events, la nouvelle agence d&#39;événementiel sportif sur Monaco. Vivez des moments d&#39;exception lors d&#39;événements majeurs comme la finale du Top 14, plongez au cœur de l&#39;émotion sportive que la France attend. Explorez une multitude de disciplines et faites de chaque événement une expérience mémorable.</p>
-          <h5 className='section-footer'>Particulier ou pro, vibrez avec nos offres exclusives</h5>
-          <button className='section-btn'><span><img src="../../../public/Frame.png" alt="ticket-frame" className='ticket' /></span>Accéder à la billeterie</button>
-        </div>
-        <img src="./french-flag.png" alt="" className="french-flag" />
-      </div>
+      <Paragraph reverse="1" styles="section-btn" url="./french-flag.png" title="Première Agence de Revente sur la " spanText="Côte d'Azur !" text="Découvrez l&#39;intensité du sport avec Tendances.Events, la nouvelle agence d&#39;événementiel sportif sur Monaco. Vivez des moments d&#39;exception lors d&#39;événements majeurs comme la finale du Top 14, plongez au cœur de l&#39;émotion sportive que la France attend. Explorez une multitude de disciplines et faites de chaque événement une expérience mémorable." btnText="Accéder à la billeterie"/>
+      <div className="water-games">
+        <div className="watergames-left-text">
+          <img src="./monacowatergameslogo.png" alt="watergameslogo" className='WGlogo' />
+          <div className="WG-left">
+            <h3 className="WGtitle">Organisateur des monaco water games </h3>
+            <p className="WGtext">Tendances.Event, partenaire incontournable de moments sportifs d&#39;exception ! Nous sommes ravis d&#39;avoir collaboré à des événements mémorables, tels que les prestigieux Monaco Water Games en partenariat avec l&#39;A.S. Monaco Rugby, avec le soutien du Gouvernement Princier. Dans le cadre unique de la Marina du Yacht Club de Monaco, du 12 au 14 juillet, nous avons créé une expérience sportive immersive, populaire, gratuite, et ouverte à tous</p>
+            <BilleterieBTN text={"Découvrir cette première"} styles={'section-btn'}/>
+            <div className="collabs">
+              <span className='collabs-text'>En collaboration avec:</span>
+              <img src="./TS logo.png" alt="tslogo" />
+              <img src="./YCMlogo.png" alt="ycmlogo" />
+            </div>
+          </div>
 
+        </div>
+        <div className="watergames-img-container">
+          <img src="../../../public/random 03.png" alt="sport" className="watergames-img" />
+          <img src="./terrain.png" alt="terrain" className="terrain" />
+        </div>
+        <div className="press">
+          <img src="./press-monacoinfo.png" alt="monacoinfo" className="press-logo" />
+          <img src="./press-monacomatin.png" alt="monacomatin" className="press-logo" />
+          <img src="./press-monacotribune.png" alt="monacotribune" className="press-logo" />
+          <img src="./press-bulletin.png" alt="bulletin" className="press-logo" />
+          <img src="../../../public/image 80.png" alt="bulletin" className="press-logo" />
+          <img src="../../../public/image 81.png" alt="bulletin" className="press-logo" />
+          <img src="../../../public/image 82.png" alt="bulletin" className="press-logo" />
+          <img src="../../../public/image 83.png" alt="bulletin" className="press-logo" />
+          <img src="../../../public/image 84.png" alt="bulletin" className="press-logo" />
+          
+        </div>
+        
+        
+      </div>
+      <div className="stats">
+        <div className="stats-header">
+          <h3 className="stats-title">99% DE RETOURS POSITIFS</h3>
+          <p className="stats-title-text">auprès de la population monégasque</p>
+        </div>
+        <div className="stats-numbers">
+          <Stats number="+100" text="bénévoles"/> 
+          <Stats number="+300" text="participants"/> 
+          <Stats number="+50" text="intervenants"/> 
+          <Stats number="1000" text="personnes/jour environ"/> 
+          <Stats number="+10" text="Des plus grandes médias de la régions on fait des articles/reportages sur nous"/> 
+          <Stats number="42736" text="Personnes touchées sur les réseaux sociaux"/>  
+        </div>
+      </div>
+      <Paragraph styles="paragraph-btn" url="../../../public/tennis.png" title="Vos Team Buildings, Séminaires et Conventions façon " spanText="Tendances.Events!" text="Réinventez vos Team Buildings avec des expériences sportives uniques, alliant compétition, esprit d'équipe et succès professionnel. Donnez une nouvelle dimension à vos séminaires et conventions avec notre approche dynamique. Unissez vos forces, atteignez de nouveaux sommets et transformez chaque événement en une victoire mémorable." btnText="Boostez vos événements pro"/>
+      <Section/>
+      <Reviews />
+      <Paragraph styles="paragraph-btn"  url="../../../public/nrj.png" title="Énergie et Excellence : Des  " spanText="Intervenants d'Élite" text="Découvrez le privilège d'avoir des sportifs d'exception, des championnes inspirantes et des coachs de renom à vos événements ! Plongez dans l'univers de l'élite sportive, recevez des conseils exclusifs et boostez la motivation de votre équipe. Tendances.Events, là où chaque intervention crée l'étincelle de la réussite. Faites de votre événement une expérience inoubliable !" btnText="Découvrez nos sportifs"/>
+      
     </div>
         
     

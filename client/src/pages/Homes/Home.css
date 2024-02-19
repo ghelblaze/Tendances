@@ -1,7 +1,4 @@
-
-
-
-                
+               
 .home-container{
     background-color: #FFF;
     width: 100%;
@@ -19,8 +16,8 @@
 .hero-text-up{
     
     text-transform: uppercase;
-    width: 1000px;
-    
+    width: 80%;
+    height: 30%;
     font-family: 'Termina';
     font-size: 56px;
     font-weight: 600;
@@ -31,8 +28,8 @@
 
 }
 .hero-text-down{
-    width: 608px;
-    height: 128px;
+    width: 66%;
+    height: 20%;
     font-family: 'Red Hat Display';
     font-size: 18px;
     font-weight: 500;
@@ -98,6 +95,7 @@ span{
     display: flex;
     flex-direction: column;
     margin: auto;
+    margin-bottom: 144px;
     text-align: center;
 
 }
@@ -109,7 +107,7 @@ span{
     line-height: 48px;
     letter-spacing: 0em;
     text-align: center;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
     width: auto;
 
 }
@@ -117,31 +115,26 @@ span{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 800px;
+    
 }
 .category-1{
     
     position: relative;
-    background: 
-            linear-gradient(0deg, #00191D 0%, rgba(0, 25, 29, 0) 100%),
-            url('./category-1-background.png') center/cover no-repeat;
-    height: 440px;
+    background: linear-gradient(0deg, #00191D 0%, rgba(0, 25, 29, 0) 50%),
+        url('../../../public/rugbybgd.png')  ;
+    background-size: cover;
+    height: 460px;
     width: 49%;
     border-radius: 4px;
     border: 2px;
 }
-.cat1-player{
-    position: absolute;
-    max-width: 80%;
-    height: 534px;
-    top: -94px;
-    left: 158px;
 
-}
 .cat1-top14{
     position: absolute;
     width: 64px;
     height: 64px;
-    top: 32px;
+    top: 120px;
     left: 32px;
 
 }
@@ -197,22 +190,12 @@ span{
 }
 .category-2{
     position: relative;
-    background: 
-            linear-gradient(0deg, #00191D 0%, rgba(0, 25, 29, 0) 100%),
-            url('./category-2-background.png') center/cover no-repeat;
-    height: 440px;
+    background:linear-gradient(0deg, #00191D 0%, rgba(0, 25, 29, 0) 50%),url('../../../public/athletebgd.png');
+    background-size: cover;
+    height: 460px;
     width: 49%;
     border-radius: 4px;
     border: 2px;
-
-}
-.cat2-player{
-    position: relative;
-    max-width: 85%;
-    height: 527px;
-    top: -87px;
-    left: 66px;
-
 }
 .section-title{
     font-family: "Termina";
@@ -271,7 +254,7 @@ span{
 
 }
 .section-footer{
-    font-family: Termina;
+    font-family: "Termina";
     font-size: 18px;
     font-weight: 600;
     line-height: 32px;
@@ -279,7 +262,7 @@ span{
     text-align: left;
 }
 .section-btn{
-    width: 281px;
+    width: auto;
     height: 40px;
     padding: 8px 16px 8px 12px;
     border-radius: 4px;
@@ -293,4 +276,493 @@ span{
 .ticket{
     display: flex;
     align-items: center;
+}
+.water-games{
+    position: relative;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: start;
+    max-width: 100%;
+    height: 750px;
+    margin-top: 145px;
+    background: rgba(0, 25, 29, 1);
+    
+    
+}
+.watergames-left-text{
+    margin-top: 100px;
+    width: 50%;
+    margin-left: 10%;
+   
+}
+
+.WGlogo{
+    
+    height: 106px;
+    width: auto;
+    margin-bottom: 32px;
+
+}
+.WGtitle{
+    font-family: 'Termina';
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 32px;
+    color: rgba(255, 255, 255, 1);
+}
+.WGtext{
+    font-family: "Red Hat Display";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 32px;
+    color: rgba(255, 255, 255, 1);
+}
+.collabs{
+    display: flex;
+    height: auto;
+    gap: 16px;
+    align-items: center;
+    margin-top: 32px;
+}
+.collabs-text{
+    font-family: 'Red Hat Display';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.7);
+
+}
+.watergames-img-container{
+    text-align: end;
+    width: 50%;
+    height: 100%;
+    /* background:  url("./lueur.png") no-repeat center/cover; */
+
+}
+.watergames-img{
+
+    width: 100%;
+    height: auto;
+    
+}
+.terrain{
+    height: 200px;
+    width: 50%;
+    position: absolute;
+    right: 0;
+    bottom:-90px;
+    z-index: 99;
+}
+.press{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    bottom: -50px;
+    animation: slide 45s linear 0s infinite normal none;
+    background-color: #FFF;
+    
+}
+@keyframes slide{
+    0% {transform: translateX(50%);}
+    100%{ transform: translateX(-100%);}
+}
+.press-logo{
+    width: 120px;
+    height: auto;
+}
+.img{
+    position: relative;
+    width: 836px;
+    height: 900px;
+    
+}
+.shield{
+    position: absolute;
+    width: 193px;
+    height: 193px;
+    left: 593.14px;
+    top: 448.86px;
+    filter: blur(0.5px);
+    transform: rotate(-6.2deg);
+}
+.adobe5216{
+    position: absolute;
+    width: 1078px;
+    height: 719px;
+    left: 0;
+    top:0;
+    mix-blend-mode: plus-lighter;
+    filter: blur(5px);
+    transform: rotate(56.02deg);
+}
+.maskgrp{
+    position: relative;
+}
+.adobe8302{
+    position: absolute;
+    width: 353.04px;
+    height: 353.04px;
+    left: 418px;
+    top: 615.81px;
+    filter: blur(0.5px);
+    transform: rotate(-10.25deg);
+}
+.random03{
+    position: absolute;
+    width: 80%;
+    height: 900;
+    left: 100px;
+    mix-blend-mode: luminosity;
+}
+.stats{
+    padding: 94px 120px 96px 120px ;
+    margin: 50px auto 144px auto;
+    background: url("../../../public/statsBack.png") center/cover ;
+    position: relative;
+    height: 770px;
+
+}
+
+.stats-header{
+    margin: 0px auto 0 auto;
+    width: 60%;
+    height: 104px;
+    text-align: center;
+    
+}
+
+.stats-title{
+    font-family: "Termina";
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(217, 1, 17, 1);
+    margin-bottom: 24px;
+    z-index: 20;
+}
+.stats-title-text{
+    font-family: "Red Hat Display";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFF;
+}
+.stats-numbers{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 30px;
+    margin-top: 104px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    z-index: 20;
+
+}
+.statnum{
+    
+    font-family: 'Termina';
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: center;
+    z-index: 20;
+}
+.stattxt{
+    font-family: 'Red Hat Display';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    z-index: 20;
+}
+.paragraph-container{
+    display: flex;
+    width: 80%;
+    height: 500px;
+    margin: 0 auto 140px;
+    gap: 10%;
+    align-items: center;
+}
+.row-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.paragraph-img-container{
+    height: 500px;
+    width: 50%;
+    
+    display: flex;
+    align-items: center;
+
+}
+.paragraph-img{
+    width: 100%;
+}
+.paragraph-content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+}
+.paragraph-title{
+    text-transform: uppercase;
+    font-family: "Termina";
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+
+}
+.paragraph-title> span{
+    text-transform: uppercase;
+    font-family: "Termina";
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.paragraph-text{
+    font-family: "Red Hat Display";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+.paragraph-btn{
+    width: 300px;
+    height:40px;
+    padding: 8px, 16px, 8px, 16px;
+    border-radius: 4px;
+    border: 1px, 1px, 2px, 1px;
+    gap: 16px;
+    color: rgba(0, 25, 29);
+    border-width: 1px, 1px, 2px, 1px;
+    border-style: solid;
+    border-color: rgba(0, 25, 29, 0.25);
+    display: flex;
+    align-items: center;
+    font-family: "Red Hat Display";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+
+.reviews-div{
+    width: 100%;
+    height: 1200px;
+    padding: 104px 108px 104px 108px;
+    gap: 56px;
+    background: rgba(235, 236, 236, 1);
+    margin-bottom: 144px;
+    margin-top: 200px;
+
+
+}
+
+.review-title{
+    font-family: 'Termina';
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    width: 512px;
+    height: 96px;
+    margin: auto;   
+}
+.reviews-logos{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    margin-bottom: 56px;
+}
+.reviews-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+
+}
+.title{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    margin-bottom: 16px;
+}
+
+.review-div{
+    height: 180px;
+    width: 100%;
+    padding: 24px;
+    gap: 16px;
+
+}
+.author-name{
+    font-family: "Red Hat Display";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.avis{
+    font-family: "Red Hat Display";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.btn-contact{
+    width: 184px;
+    height: 40px;
+    padding: 8px 16px 8px 16px;
+    border-radius: 4px;
+    border: none;
+    gap: 16px;
+    background: rgba(217, 1, 17, 1);
+    font-family: "Red Hat Display";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 1);
+    margin: auto;
+}
+.reviews-details{
+    margin-bottom: 70px;
+}
+.footerSpan{
+    font-family: "Red Hat Display";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: rgba(0, 25, 29, 0.7);
+
+
+}
+.section8{
+    position: relative;
+    background-image: url(../../../public/section8Bg.png);
+    background-size: 100% 100%;
+    width: 80%;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.section8left{
+    color:rgba(255, 255, 255, 1);
+    
+    width: 50%;
+    padding:80px 56px;
+    gap: 20px;
+}
+.section8right{
+   
+    width: 50%;
+    overflow: hidden;
+        
+}
+.section8title{
+    text-transform: uppercase;
+    font-family: "Termina";
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 32px;
+
+   
+}
+.section8text{
+    font-family: "Red Hat Display";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 32px;
+
+}
+.section8tree{
+    position: absolute;
+    right: -50px;
+    height: 630px;
+    width: 28%;
+    bottom: -8%;
+    
+    
+}
+.backetBallman{
+    position: absolute;
+    height: 140%;
+    width: 120%;
+    right: -65%;
+    bottom: -40%;
+}
+.section8btn{
+    font-family: "Red Hat Display";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(0, 25, 29, 1);
+    width: 162px;
+    height: 40px;
+    
+    border-radius: 4px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
 }

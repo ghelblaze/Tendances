@@ -5,6 +5,7 @@ import tendances from '../../../public/tendances.png'
 import events from '../../../public/events.png'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faChevronDown} from '@fortawesome/free-solid-svg-icons'
+import BilleterieBTN from '../billeterieBTN'
 
 
 const NavBar = () => {
@@ -23,7 +24,8 @@ const NavBar = () => {
                 <li className="navbar-items" >PRESENTATION <FontAwesomeIcon icon={faChevronDown} className='cheveron' /> </li>
             </ul>
         </nav>
-        <button className='ticket-btn'><img src="../../../public/Frame.png" alt="ticket-frame" className='ticket'/> BILLETERIE</button>
+        <BilleterieBTN text={'BILLETERIE'} styles={"ticket-btn"}/>
+         
     </div>
   )
 }

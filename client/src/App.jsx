@@ -13,7 +13,7 @@ function App() {
      <TopHeader/>
      <NavBar/>
      <Home/>
-     {/* <Footer/> */}
+     <Footer/>
     </>
   )
 }
