@@ -49,7 +49,7 @@ const Home = () => {
           <div className="WG-left">
             <h3 className="WGtitle">Organisateur des monaco water games </h3>
             <p className="WGtext">Tendances.Event, partenaire incontournable de moments sportifs d&#39;exception ! Nous sommes ravis d&#39;avoir collaboré à des événements mémorables, tels que les prestigieux Monaco Water Games en partenariat avec l&#39;A.S. Monaco Rugby, avec le soutien du Gouvernement Princier. Dans le cadre unique de la Marina du Yacht Club de Monaco, du 12 au 14 juillet, nous avons créé une expérience sportive immersive, populaire, gratuite, et ouverte à tous</p>
-            <BilleterieBTN text={"Découvrir cette première"} styles={'section-btn'}/>
+            <BilleterieBTN text={"Découvrir cette première"} styles={'section-btn'} logo='false'/>
             <div className="collabs">
               <span className='collabs-text'>En collaboration avec:</span>
               <img src="./TS logo.png" alt="tslogo" />
@@ -59,10 +59,10 @@ const Home = () => {
 
         </div>
         <div className="watergames-img-container">
-          <img src="../../../public/random 03.png" alt="sport" className="watergames-img" />
-          <img src="./terrain.png" alt="terrain" className="terrain" />
+          <img src="../../../public/waterGameSection.png" alt="sport" className="watergames-img" />
         </div>
-        <div className="press">
+        <div className="press-container">
+          <div className="press">
           <img src="./press-monacoinfo.png" alt="monacoinfo" className="press-logo" />
           <img src="./press-monacomatin.png" alt="monacomatin" className="press-logo" />
           <img src="./press-monacotribune.png" alt="monacotribune" className="press-logo" />
@@ -74,7 +74,7 @@ const Home = () => {
           <img src="../../../public/image 84.png" alt="bulletin" className="press-logo" />
           
         </div>
-        
+        </div>
         
       </div>
       <div className="stats">
@@ -91,10 +91,10 @@ const Home = () => {
           <Stats number="42736" text="Personnes touchées sur les réseaux sociaux"/>  
         </div>
       </div>
-      <Paragraph styles="paragraph-btn" url="../../../public/tennis.png" title="Vos Team Buildings, Séminaires et Conventions façon " spanText="Tendances.Events!" text="Réinventez vos Team Buildings avec des expériences sportives uniques, alliant compétition, esprit d'équipe et succès professionnel. Donnez une nouvelle dimension à vos séminaires et conventions avec notre approche dynamique. Unissez vos forces, atteignez de nouveaux sommets et transformez chaque événement en une victoire mémorable." btnText="Boostez vos événements pro"/>
+      <Paragraph styles="paragraph-btn" logo='false' url="../../../public/tennis.png" title="Vos Team Buildings, Séminaires et Conventions façon " spanText="Tendances.Events!" text="Réinventez vos Team Buildings avec des expériences sportives uniques, alliant compétition, esprit d'équipe et succès professionnel. Donnez une nouvelle dimension à vos séminaires et conventions avec notre approche dynamique. Unissez vos forces, atteignez de nouveaux sommets et transformez chaque événement en une victoire mémorable." btnText="Boostez vos événements pro"/>
       <Section/>
       <Reviews />
-      <Paragraph styles="paragraph-btn"  url="../../../public/nrj.png" title="Énergie et Excellence : Des  " spanText="Intervenants d'Élite" text="Découvrez le privilège d'avoir des sportifs d'exception, des championnes inspirantes et des coachs de renom à vos événements ! Plongez dans l'univers de l'élite sportive, recevez des conseils exclusifs et boostez la motivation de votre équipe. Tendances.Events, là où chaque intervention crée l'étincelle de la réussite. Faites de votre événement une expérience inoubliable !" btnText="Découvrez nos sportifs"/>
+      <Paragraph styles="paragraph-btn" logo='false'  url="../../../public/nrj.png" title="Énergie et Excellence : Des  " spanText="Intervenants d'Élite" text="Découvrez le privilège d'avoir des sportifs d'exception, des championnes inspirantes et des coachs de renom à vos événements ! Plongez dans l'univers de l'élite sportive, recevez des conseils exclusifs et boostez la motivation de votre équipe. Tendances.Events, là où chaque intervention crée l'étincelle de la réussite. Faites de votre événement une expérience inoubliable !" btnText="Découvrez nos sportifs"/>
       
     </div>
         

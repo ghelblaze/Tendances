@@ -8,11 +8,11 @@ function Reviews() {
         
             <h3 className="review-title">Faites comme eux, lancez-vous !</h3>
             <div className="reviews-logos">
-                <img src="../../public/WGlogo.png" alt="waterGames" />
-                <img src="../../public/HTlogo.png" alt="hagTime" />
-                <img src="../../public/CAlogo.png" alt="coteAzure" />
-                <img src="../../public/PoFlogo.png" alt="planetFinance" />
-                <img src="../../public/RMlogo.png" alt="rugby" />
+                <img src="../../public/WGlogo.png" alt="waterGames" className='wt-logos' />
+                <img src="../../public/HTlogo.png" alt="hagTime" className='wt-logos' />
+                <img src="../../public/CAlogo.png" alt="coteAzure" className='wt-logos' />
+                <img src="../../public/PoFlogo.png" alt="planetFinance" className='wt-logos' />
+                <img src="../../public/RMlogo.png" alt="rugby" className='wt-logos'  />
             </div>
             <div className="reviews-details">
                 <Singlereview/>
