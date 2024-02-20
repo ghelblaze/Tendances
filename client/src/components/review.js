@@ -30,7 +30,7 @@ const dataReviews = [
       "Des sessions bien pensées et une orga au top. Ça a donné une super ambiance propice à l'échange et à l'apprentissage.",
   },
   {
-    imgUrl: "../../public/sebastien.png",
+    imgUrl: "../../public/sebastiens.png",
     name: "Sébastien",
     review:
       "Professionnalisme et convivialité caractérisent l'équipe de Tendances.Events. Collaboration efficace et agréable",
