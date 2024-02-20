@@ -1,0 +1,103 @@
+.propos-header{
+    background: url("../../../public/aproposbanner.png");
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    margin-bottom: 144px;
+}
+.propos-titre{
+    
+font-family: Termina, sans-serif;
+font-size: 56px;
+font-weight: 600;
+line-height: 80px;
+letter-spacing: 0em;
+text-align: center;
+color: rgba(255, 255, 255, 1);
+
+
+}
+.propos-sous-titre{
+    display: flex;
+    align-items: center;
+    font-family: "Red Hat Display";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+.equipe-titre{
+   
+    font-family: Termina, sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(0, 25, 29, 1);
+
+}
+.equipe-titre{
+    text-transform: uppercase;
+    font-family: Termina, sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 100px;
+
+}
+.equipe-membres{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    max-width: 80%;
+    margin: 0 auto 200px;
+}
+.membre-div{
+    
+    display: flex;
+    align-items: center;
+    min-width: 600px;
+    height: auto;
+    border-radius: 4px;
+    gap: 20px;
+}
+.membre-img{
+    display: flex;
+}
+.membre-data{
+    
+    padding: 24px 32px 24px 32px;
+    gap: 16px
+
+}
+.membre-name{
+    
+    font-family: Termina, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.membre-bio{
+    font-family: "Red Hat Display";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}

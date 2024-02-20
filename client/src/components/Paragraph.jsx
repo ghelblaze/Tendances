@@ -11,7 +11,7 @@ const Paragraph = ({url, title, spanText,text, btnText, styles,reverse, logo}) =
         <div className="paragraph-content">
             <h3 className="paragraph-title">{title} <span>{spanText}</span> </h3>
             <p className="paragraph-text">{text}</p>
-            <BilleterieBTN text={btnText} styles={styles} logo={logo}/>
+            {btnText && <BilleterieBTN text={btnText} styles={styles} logo={logo}/>}
         </div>
 
     </div>

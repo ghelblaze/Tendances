@@ -56,7 +56,6 @@ const Home = () => {
               <img src="./YCMlogo.png" alt="ycmlogo" />
             </div>
           </div>
-
         </div>
         <div className="watergames-img-container">
           <img src="../../../public/waterGameSection.png" alt="sport" className="watergames-img" />
@@ -74,8 +73,7 @@ const Home = () => {
           <img src="../../../public/image 84.png" alt="bulletin" className="press-logo" />
           
         </div>
-        </div>
-        
+        </div>   
       </div>
       <div className="stats">
         <div className="stats-header">
