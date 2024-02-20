@@ -5,6 +5,7 @@ import NavBar from './components/NavBar/NavBar'
 import TopHeader from './components/TopHeader/TopHeader'
 import Home from './pages/Homes/Home'
 import Propos from "./pages/Propos/Propos"
+import Blog from "./pages/Blog/Blog"
 
 function App() {
   
@@ -16,6 +17,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/propos" element={<Propos/>}/>
+        <Route path="/blog" element={<Blog/>}/>
       </Routes>
       <Footer/>
     </BrowserRouter>

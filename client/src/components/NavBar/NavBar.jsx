@@ -28,6 +28,7 @@ const NavBar = () => {
                 <Link to="/" className="navbar-items">ACCUEIL</Link>
                 <Link to="/propos" className="navbar-items">A PROPOS</Link >
                 <Link  className="navbar-items prestation-btn" onClick={()=>toggleMenu()}>PRESENTATION <FontAwesomeIcon icon={faChevronDown} className='cheveron' /> </Link>
+                <Link to="/blog" className="navbar-items">BLOG</Link >
             </ul>
             <ul className={btnToggle? "prestation": "prestation hide"}>
                     <Link to='#' className='prestation-menu'>Professionel</Link>
