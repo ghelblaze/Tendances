@@ -17,7 +17,7 @@ function Reviews() {
             <div className="reviews-details">
                 <Singlereview/>
             </div>
-            <BilleterieBTN text="Contactez-nous" styles="btn-contact" logo='false'/>
+            <BilleterieBTN text="Contactez-nous" styles="btn-contact" logo='false' className="contactbtn" />
 
         
        
