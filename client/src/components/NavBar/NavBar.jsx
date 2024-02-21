@@ -30,9 +30,9 @@ const NavBar = () => {
                 <Link  className="navbar-items prestation-btn" onClick={()=>toggleMenu()}>PRESENTATION <FontAwesomeIcon icon={faChevronDown} className='cheveron' /> </Link>
                 <Link to="/blog" className="navbar-items">BLOG</Link >
             </ul>
-            <ul className={btnToggle? "prestation": "prestation hide"}>
-                    <Link to='#' className='prestation-menu'>Professionel</Link>
-                    <Link to='#' className='prestation-menu'>Particulier</Link>
+            <ul className={btnToggle? "prestation": " hide"}>
+                    <Link to='/professionnels' onClick={()=>toggleMenu()}  className='prestation-menu' >Professionels</Link>
+                    <Link to='/particuliers' onClick={()=>toggleMenu()} className='prestation-menu'>Particuliers</Link>
             </ul>
         </nav>
         <BilleterieBTN text={'BILLETERIE'} styles={"ticket-btn"}/>
