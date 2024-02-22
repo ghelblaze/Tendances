@@ -1,9 +1,10 @@
-import React from "react"
+
 import './TopHeader.css'
-import Arrow from "./Arrow.jsx"
+import Contact from "../Contact";
 
 
-const TopHeader = () => {
+const TopHeader = ({contact,toggle}) => {
+  
   return (
     <div className='menu-t-group'>
         
@@ -20,8 +21,8 @@ const TopHeader = () => {
         
         
             <ul className="right-list" >
-                <li className="support-client">SUPPORT CLIENT</li>
-                <li className="nous-contacter"><span className="arrow">&#129141;</span> NOUS CONTACTER</li>
+                <li className="support-client"><a href="https://tendances-group.agilix.io/" target="_blank" rel="noreferrer">SUPPORT CLIENT</a></li>
+                <li className="nous-contacter" onClick={toggle}><span className="arrow">&#129141;</span> NOUS CONTACTER</li>
             </ul>
         
         

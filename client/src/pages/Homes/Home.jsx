@@ -1,3 +1,5 @@
+import React from 'react'
+import { useState } from 'react'
 import './Home.css'
 import Form from './Form'
 import BilleterieBTN from '../../components/billeterieBTN'
@@ -5,12 +7,16 @@ import Stats from "../../components/Stats"
 import Paragraph from '../../components/Paragraph'
 import Reviews from '../../components/Reviews'
 import Section from '../../components/Section'
+import Contact from '../../components/Contact'
 
 
 
-const Home = () => {
+
+const Home = ({contact,toggle}) => {
+  
   return (
     <div className="home-container">
+      <Contact contact={contact} toggle={toggle}/>
       <div className="hero">
             <p className="hero-text-up">Vivez l&#39;instant, partagez l&#39;expérience, choisissez Tendance</p>
             <p className="hero-text-down">Que vous soyez un particulier cherchant à célébrer des moments spéciaux ou un professionnel désirant dynamiser votre équipe, nous sommes là pour vous offrir des événements sportifs exceptionnels, conformes aux dernières tendances.</p>

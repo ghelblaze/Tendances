@@ -5,19 +5,16 @@
     border-bottom: 0.8px solid #EDF0F31A;
     display: flex;
     justify-content: space-between;
-    padding-right: 5%;
-    top: 0;
+    padding: 0px 40px;
     
-    
-    
-    
+   
     
 }
 .agences{
     display: flex;
-    width:53px;
-    height:  44px;
-    margin-left: 50px;
+    flex: 4;
+    height:44px;
+    
 
 }
 .group{
@@ -48,11 +45,8 @@
 .tendances{
     display: flex;
     align-items: center;
-    
     padding: 13px 20px 13px 20px;
-    
     gap: 10px;
-
     font-family: "Red Hat Display";
     font-size: 13px;
     font-weight: 700;
@@ -67,7 +61,9 @@
     display: flex;
     color: #FFF;
     align-items: center;
-    
+    flex: 2;
+    justify-content: end;
+    margin-right: 15px;
     
 }
 
@@ -80,6 +76,11 @@
     opacity: 0.7;
     border-right: 0.8px solid rgba(255, 255, 255, 0.2);
     padding: 13px 20px 13px 20px;
+    cursor: pointer;
+}
+.support-client>a{
+    font-family: "Red Hat Display";
+    color: #FFF;
 }
 .nous-contacter{
     font-family: "Red Hat Display";
@@ -88,7 +89,10 @@
     line-height: 18px;
     color: #FFF;
     opacity: 0.7;
-    padding: 13px 0 13px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
 }
 .arrow{
     font-size: 1.2rem;

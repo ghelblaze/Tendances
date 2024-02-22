@@ -1,6 +1,6 @@
 import React from 'react'
 import './particuliers.css'
-import partData from './part-data'
+import proData from './part-data'
 import Prestations from '../../components/Prestations'
 const Particuliers = () => {
   return (
@@ -9,7 +9,7 @@ const Particuliers = () => {
             <h1 className="propos-titre">NOS PRESTATIONS</h1>
       </div>
       <div className="pro-main">
-          <Prestations data={partData}/>
+          <Prestations data={proData}/>
       </div>
     </div>
   )
