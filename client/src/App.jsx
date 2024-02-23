@@ -14,6 +14,7 @@ function App() {
   const [contact,setContact]=useState(false);
   const toggleContact = ()=>{
       setContact(!contact)
+      console.log("msg")
       console.log(contact)
   }
 
