@@ -18,8 +18,8 @@ const Footer = () => {
         <ul className="footer-links">
             <li className="footer-links-items">ACCUEIL</li>
             <li className="footer-links-items">A PROPOS</li>
-            <li className="footer-links-items">PRESTATIONS POUR LES PROFESSIONNELS</li>
-            <li className="footer-links-items">PRESTATIONS POUR LES PARTICULIERS</li>
+            <li className="footer-links-items">PROFESSIONNELS</li>
+            <li className="footer-links-items">PARTICULIERS</li>
             <li className="footer-links-items">CLIENTS</li>
             <li className="footer-links-items">BILLETERIE</li>
         </ul>

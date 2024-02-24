@@ -11,19 +11,14 @@ import Professionnels from "./pages/professionnels/Professionnels"
 import Particuliers from "./pages/particuliers/Particuliers"
 
 function App() {
-  const [contact,setContact]=useState(false);
-  const toggleContact = ()=>{
-      setContact(!contact)
-      console.log("msg")
-      console.log(contact)
-  }
+ 
 
   return (
     <BrowserRouter>
-      <TopHeader contact={contact} toggle={toggleContact}/>
+      <TopHeader />
       <NavBar/>
       <Routes>
-        <Route path="/" element={<Home contact={contact} toggle={toggleContact}/>}/>
+        <Route path="/" element={<Home/>}/>
         <Route path="/propos" element={<Propos/>}/>
         <Route path="/blog" element={<Blog/>}/>
         <Route path="/professionnels" element={<Professionnels/>}/>

@@ -714,17 +714,7 @@ span{
     margin: auto;
 }
 
-.footerSpan{
-    font-family: "Red Hat Display";
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: right;
-    color: rgba(0, 25, 29, 0.7);
 
-
-}
 .section8{
     position: relative;
     background-image: url(../../../public/section8Bg.png);
