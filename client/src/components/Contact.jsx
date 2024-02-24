@@ -11,7 +11,7 @@ const Contact = ({contact,toggle}) => {
       prenom:'',
       nom:'',
       email: '',
-      telephone:'',
+      phone:'',
       participants:'',
       date:'',
       msg:'',

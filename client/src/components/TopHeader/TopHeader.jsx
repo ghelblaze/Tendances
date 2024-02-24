@@ -1,9 +1,16 @@
 
 import './TopHeader.css'
 import Contact from "../Contact";
+import { useState } from 'react';
 
 
-const TopHeader = ({contact,toggle}) => {
+const TopHeader = () => {
+   const [contact,setContact]=useState(false);
+  const toggleContact = ()=>{
+      setContact(!contact)
+      console.log("msg")
+      console.log(contact)
+  }
   
   return (
     <div className='menu-t-group'>
@@ -22,13 +29,12 @@ const TopHeader = ({contact,toggle}) => {
         
             <ul className="right-list" >
                 <li className="support-client"><a href="https://tendances-group.agilix.io/" target="_blank" rel="noreferrer">SUPPORT CLIENT</a></li>
-                <li className="nous-contacter" onClick={toggle}><span className="arrow">&#129141;</span> NOUS CONTACTER</li>
+                <li className="nous-contacter" onClick={toggleContact}><span className="arrow">&#129141;</span> NOUS CONTACTER</li>
             </ul>
-        
+        <Contact contact={contact} toggle={toggleContact}/>
         
     </div>
   )
 }
 
 export default TopHeader
-{/* <Arrow style={{ transform: 'rotate(90deg)' }}/> */}
